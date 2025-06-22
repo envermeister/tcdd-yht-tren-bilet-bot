@@ -33,7 +33,7 @@ TCDD YHT tren biletlerinde boş koltuk takibi yapan gelişmiş bot uygulaması. 
 ## 🔧 Kurulum
 
 ### 1. JAR Dosyasını İndirin
-En son sürümü [Releases](https://github.com/yourusername/your-repo/releases) bölümünden indirin.
+En son sürümü [Releases](https://github.com/envermeister/tcdd-yht-tren-bilet-bot/releases) bölümünden indirin.
 
 ### 2. Telegram Bot Kurulumu (İsteğe Bağlı)
 
@@ -61,13 +61,13 @@ telegram.chat.id=YOUR_CHAT_ID_HERE
 
 ### Web Arayüzü Modu (Varsayılan)
 ```bash
-java -jar TrainTicketTracker-1.0-SNAPSHOT.jar
+java -jar Release-v1.jar
 ```
 Tarayıcınızda [http://localhost:9090](http://localhost:9090) adresini açın.
 
 ### Terminal Modu (Headless)
 ```bash
-java -jar TrainTicketTracker-1.0-SNAPSHOT.jar --headless
+java -jar Release-v1.jar --headless
 ```
 
 #### Terminal Menüsü
@@ -145,8 +145,8 @@ app.bearer-token=...
 
 ### Kaynak Koddan Derleme
 ```bash
-git clone https://github.com/yourusername/TrainTicketTracker.git
-cd TrainTicketTracker
+git clone https://github.com/envermeister/tcdd-yht-tren-bilet-bot.git
+cd tcdd-yht-tren-bilet-bot
 mvn clean package -DskipTests
 ```
 
@@ -167,10 +167,6 @@ Bu proje olduğu gibi sağlanmaktadır, herhangi bir garanti verilmez. Kendi sor
 3. Commit yapın (`git commit -m 'Add amazing feature'`)
 4. Push yapın (`git push origin feature/amazing-feature`)
 5. Pull Request açın
-
-## 📞 Destek
-
-Sorunlarınız için [Issues](https://github.com/yourusername/your-repo/issues) bölümünü kullanın.
 
 ---
 
