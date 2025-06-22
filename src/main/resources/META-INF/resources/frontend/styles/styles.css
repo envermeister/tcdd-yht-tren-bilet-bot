@@ -1,0 +1,48 @@
+.results-area {
+    font-family: monospace;
+    white-space: pre;
+    line-height: 1.5;
+    padding: 8px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.alerts {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.timestamp {
+    color: #757575;
+    font-style: italic;
+}
+
+/* Line number styling */
+.line-number {
+    color: #9e9e9e;
+    padding-right: 8px;
+    user-select: none;
+    display: inline-block;
+    width: 40px;
+    text-align: right;
+}
+
+/* Add some better spacing for the form elements */
+vaadin-text-field, 
+vaadin-combo-box, 
+vaadin-checkbox {
+    margin-bottom: 10px;
+}
+
+/* Make buttons more distinct */
+vaadin-button {
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+/* Alert styling in text area */
+.v-textarea-alert-line {
+    color: #d32f2f !important;
+    font-weight: bold !important;
+    background-color: #ffebee !important;
+}
